@@ -60,22 +60,25 @@ TF Lite: Konversi model menggunakan TFLiteConverter untuk penggunaan di perangka
 
 🚀 Cara Menjalankan Secara Lokal
 1. Kloning Repositori
+```
 Bash
 git clone [https://github.com/Ezafares21/Project_Deep_Learning_Dicoding.git](https://github.com/Ezafares21/Project_Deep_Learning_Dicoding.git)
 cd Project_Deep_Learning_Dicoding
+```
 2. Instalasi Dependensi
 Buat virtual environment (opsional) lalu instal library yang dibutuhkan:
-
+```
 Bash
-pip install -r requirements.txt
+pip install -r requirements.txt 
+```
 3. Menjalankan Notebook
 Buka dan jalankan file DL_Klasifikasi_Gambar_Reza.ipynb menggunakan Jupyter Lab / VS Code / Google Colab:
-
+```
 Bash
 jupyter lab DL_Klasifikasi_Gambar_Reza.ipynb
+```
 
+Penulis
 
-👤 Penulis
 Nama: Reza Al Pares
-
 GitHub: @Ezafares21
