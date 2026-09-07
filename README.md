@@ -38,25 +38,25 @@ Repositori ini berisi proyek akhir untuk kelas **Belajar Fundamental Deep Learni
 ```
 
 🛠️ Langkah Eksperimen & Pemodelan
-Pre-processing Data:
+  1. Pre-processing Data:
 
-Melakukan pemisahan dataset (train dan validation set).
+    - Melakukan pemisahan dataset (train dan validation set).
 
-Menerapkan augmentasi gambar (rescaling, rotation, flip, dll.) untuk mencegah overfitting.
+    - Menerapkan augmentasi gambar (rescaling, rotation, flip, dll.) untuk mencegah overfitting.
 
-Arsitektur Model:
+  2.Arsitektur Model:
 
-Memakai pretrained model MobileNetV2 sebagai feature extractor.
+    - Memakai pretrained model MobileNetV2 sebagai feature extractor.
 
-Menambahkan lapisan Dense, Dropout untuk regularisasi, dan lapisan Softmax untuk output 6 kelas.
+    - Menambahkan lapisan Dense, Dropout untuk regularisasi, dan lapisan Softmax untuk output 6 kelas.
 
-Ekspor & Deployment Model:
+  3. Ekspor & Deployment Model:
 
-SavedModel: Format standar TensorFlow untuk kebutuhan deployment server.
+    - SavedModel: Format standar TensorFlow untuk kebutuhan deployment server.
 
-TFJS: Konversi model menggunakan tensorflowjs_converter agar siap diintegrasikan ke aplikasi berbasis Web.
+    - TFJS: Konversi model menggunakan tensorflowjs_converter agar siap diintegrasikan ke aplikasi berbasis Web.
 
-TF Lite: Konversi model menggunakan TFLiteConverter untuk penggunaan di perangkat mobile / Android.
+    - TF Lite: Konversi model menggunakan TFLiteConverter untuk penggunaan di perangkat mobile / Android.
 
 🚀 Cara Menjalankan Secara Lokal
 1. Kloning Repositori
