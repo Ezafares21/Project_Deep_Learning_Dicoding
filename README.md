@@ -35,7 +35,7 @@ Repositori ini berisi proyek akhir untuk kelas **Belajar Fundamental Deep Learni
 │   ├── label.txt
 │   └── model.tflite
 └── README.md                         # Dokumentasi proyek
-
+```
 
 🛠️ Langkah Eksperimen & Pemodelan
 Pre-processing Data:
